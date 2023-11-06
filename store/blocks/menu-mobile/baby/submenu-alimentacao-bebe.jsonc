@@ -1,0 +1,140 @@
+{
+  "drawer#submenu-alimentacao-bebe": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-alimentacao-bebe"
+    ],
+    "blocks": [
+      "drawer-trigger#alimentacao-bebe"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Alimentação do Bebê"
+  },
+  "drawer-trigger#alimentacao-bebe": {
+    "children": [
+      "rich-text#submenu-alimentacao-bebe"
+    ],
+    "title": "Drawer Trigger - Alimentação do Bebê"
+  },
+  "rich-text#submenu-alimentacao-bebe": {
+    "props": {
+      "text": "Alimentação do Bebê"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-alimentacao-bebe": {
+    "children": [
+      "drawer-close-button#alimentacao-bebe"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-alimentacao-bebe",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe",
+            "noFollow": false,
+            "tagTitle": "Tudo em Alimentação do Bebê",
+            "text": "Tudo em Alimentação do Bebê"
+          }
+        },
+        {
+          "id": "menu-item-category-acessorios-bebe",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe/acessorios-para-alimentacao",
+            "noFollow": false,
+            "tagTitle": "Acessórios para Alimentação",
+            "text": "Acessórios para Alimentação"
+          }
+        },
+        {
+          "id": "menu-item-category-alimentacao",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe/amamentacao",
+            "noFollow": false,
+            "tagTitle": "Amamentação",
+            "text": "Amamentação"
+          }
+        },
+        {
+          "id": "menu-item-category-alimentacao-do-bebe-cadeira-de-refeicao",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe/cadeira-de-refeicao",
+            "noFollow": false,
+            "tagTitle": "Cadeira de Refeição",
+            "text": "Cadeira de Refeição"
+          }
+        },
+        {
+          "id": "menu-item-category-alimentacao-do-bebe-chupetas-e-mordedores",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe/chupetas-e-mordedores",
+            "noFollow": false,
+            "tagTitle": "Chupetas e Mordedores",
+            "text": "Chupetas e Mordedores"
+          }
+        },
+        {
+          "id": "menu-item-category-alimentacao-do-bebe-mamadeiras",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe/mamadeiras",
+            "noFollow": false,
+            "tagTitle": "Mamadeiras",
+            "text": "Mamadeiras"
+          }
+        },
+        {
+          "id": "menu-item-category-alimentacao-do-bebe-utensilios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe/utensilios",
+            "noFollow": false,
+            "tagTitle": "Utensílios",
+            "text": "Utensílios"
+          }
+        },
+        {
+          "id": "menu-item-category-alimentacao-do-bebe-vitaminas-e-suplementos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/alimentacao-do-bebe/vitaminas-e-suplementos",
+            "noFollow": false,
+            "tagTitle": "Vitaminas e Suplementos",
+            "text": "Vitaminas e Suplementos"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Alimentação do Bebê"
+  },
+  "drawer-close-button#alimentacao-bebe": {
+    "props": {
+      "text": "Alimentação do Bebê"
+    }
+  }
+}

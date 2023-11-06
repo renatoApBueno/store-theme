@@ -1,0 +1,140 @@
+{
+  "drawer#submenu-fantasias-infantil": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-fantasias-infantil"
+    ],
+    "blocks": [
+      "drawer-trigger#fantasias-infantil"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Fantasias Infantil"
+  },
+  "drawer-trigger#fantasias-infantil": {
+    "children": [
+      "rich-text#submenu-fantasias-infantil"
+    ],
+    "title": "Drawer Trigger - Fantasias Infantil"
+  },
+  "rich-text#submenu-fantasias-infantil": {
+    "props": {
+      "text": "Fantasias Infantil"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-fantasias-infantil": {
+    "children": [
+      "drawer-close-button#fantasias-infantil"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-fantasias-infantil-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil",
+            "noFollow": false,
+            "tagTitle": "Tudo em Fantasias Infantil",
+            "text": "Tudo em Fantasias Infantil"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-infantil-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil/fantasias-de-animais",
+            "noFollow": false,
+            "tagTitle": "Fantasias de Animais",
+            "text": "Fantasias de Animais"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-infantil-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil/fantasias-de-halloween",
+            "noFollow": false,
+            "tagTitle": "Fantasias de Halloween",
+            "text": "Fantasias de Halloween"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-infantil-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil/fantasias-de-herois-e-heroinas",
+            "noFollow": false,
+            "tagTitle": "Fantasias de Heróis e Heroínas",
+            "text": "Fantasias de Heróis e Heroínas"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-infantil-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil/fantasias-de-personagens",
+            "noFollow": false,
+            "tagTitle": "Fantasias de Personagens",
+            "text": "Fantasias de Personagens"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-infantil-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil/fantasias-de-princesas-e-principes",
+            "noFollow": false,
+            "tagTitle": "Fantasias de Princesas e Príncipes",
+            "text": "Fantasias de Princesas e Príncipes"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-infantil-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil/fantasias-de-vilas-e-viloes",
+            "noFollow": false,
+            "tagTitle": "Fantasias de Vilãs e Vilões",
+            "text": "Fantasias de Vilãs e Vilões"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-infantil-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/infantil/fantasias-juninas",
+            "noFollow": false,
+            "tagTitle": "Fantasias Juninas",
+            "text": "Fantasias Juninas"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Fantasias Infantil"
+  },
+  "drawer-close-button#fantasias-infantil": {
+    "props": {
+      "text": "Fantasias Infantil"
+    }
+  }
+}

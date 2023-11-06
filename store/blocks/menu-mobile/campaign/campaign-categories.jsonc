@@ -1,0 +1,93 @@
+{
+  "drawer#submenu-campaign": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-campaign"
+    ],
+    "blocks": [
+      "drawer-trigger#campaign"
+    ],
+    "props": {
+      "isFullWidth": false
+    },
+    "title": "Drawer - campanha"
+  },
+  "drawer-trigger#campaign": {
+    "children": [
+      "rich-text#submenu-campaign"
+    ],
+    "title": "Drawer Trigger - campanha"
+  },
+  "rich-text#submenu-campaign": {
+    "props": {
+      "blockClass": [
+        "submenu-campaign-mobile"
+      ],
+      "text": "Happy Friday"
+    },
+    "title": "Titulo - campanha"
+  },
+  "vtex.menu@2.x:menu#drawer-campaign": {
+    "children": [
+      "drawer-close-button#campaign"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-campaign-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/campaign",
+            "noFollow": false,
+            "tagTitle": "Happy Friday",
+            "text": "Happy Friday"
+          }
+        },
+        {
+          "id": "menu-item-campaign-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/campaign/amamentacao-e-alimentacao",
+            "noFollow": false,
+            "tagTitle": "30% de desconto",
+            "text": "30% de desconto"
+          }
+        },
+        {
+          "id": "menu-item-campaign-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/campaign/banho-e-higiene",
+            "noFollow": false,
+            "tagTitle": "50% de desconto",
+            "text": "50% de desconto"
+          }
+        },
+        {
+          "id": "menu-item-campaign-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/campaign/banho-e-higiene",
+            "noFollow": false,
+            "tagTitle": "70% de desconto",
+            "text": "70% de desconto"
+          }
+        }
+      ]
+    },
+    "title": "Menu - campaign"
+  },
+  "drawer-close-button#campaign": {
+    "props": {
+      "text": "Happy Friday"
+    }
+  }
+}

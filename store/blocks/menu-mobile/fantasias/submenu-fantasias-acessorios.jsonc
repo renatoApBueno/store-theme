@@ -1,0 +1,116 @@
+{
+  "drawer#submenu-fantasias-acessorios": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-fantasias-acessorios"
+    ],
+    "blocks": [
+      "drawer-trigger#fantasias-acessorios"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Fantasias Acessórios"
+  },
+  "drawer-trigger#fantasias-acessorios": {
+    "children": [
+      "rich-text#submenu-fantasias-acessorios"
+    ],
+    "title": "Drawer Trigger - Fantasias Acessórios"
+  },
+  "rich-text#submenu-fantasias-acessorios": {
+    "props": {
+      "text": "Fantasias Acessórios"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-fantasias-acessorios": {
+    "children": [
+      "drawer-close-button#fantasias-acessorios"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-fantasias-acessorios-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/acessorios",
+            "noFollow": false,
+            "tagTitle": "Tudo em Acessórios",
+            "text": "Tudo em Acessórios"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-acessorios-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/acessorios/espadas",
+            "noFollow": false,
+            "tagTitle": "Espadas",
+            "text": "Espadas"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-acessorios-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/acessorios/mascaras",
+            "noFollow": false,
+            "tagTitle": "Máscaras",
+            "text": "Máscaras"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-acessorios-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/acessorios/outros-acessorios",
+            "noFollow": false,
+            "tagTitle": "Outros Acessórios",
+            "text": "Outros Acessórios"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-acessorios-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/acessorios/perucas-e-chapeus",
+            "noFollow": false,
+            "tagTitle": "Perucas e Chapéus",
+            "text": "Perucas e Chapéus"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-acessorios-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/acessorios/sabre-de-luz",
+            "noFollow": false,
+            "tagTitle": "Sabre de Luz",
+            "text": "Sabre de Luz"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Fantasias Acessórios"
+  },
+  "drawer-close-button#fantasias-acessorios": {
+    "props": {
+      "text": "Fantasias Acessórios"
+    }
+  }
+}

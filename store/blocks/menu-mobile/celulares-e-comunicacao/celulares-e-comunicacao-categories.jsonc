@@ -1,0 +1,96 @@
+{
+  "drawer#submenu-celulares-e-comunicacao": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-celulares-e-comunicacao"
+    ],
+    "blocks": [
+      "drawer-trigger#celulares-e-comunicacao"
+    ],
+    "props": {
+      "isFullWidth": false
+    },
+    "title": "Drawer - Celulares e Comunicação"
+  },
+  "drawer-trigger#celulares-e-comunicacao": {
+    "children": [
+      "rich-text#submenu-celulares-e-comunicacao"
+    ],
+    "title": "Drawer Trigger - Celulares e Comunicação"
+  },
+  "rich-text#submenu-celulares-e-comunicacao": {
+    "props": {
+      "text": "Celulares e Comunicação"
+    },
+    "title": "Titulo - Celulares e Comunicação"
+  },
+  "vtex.menu@2.x:menu#drawer-celulares-e-comunicacao": {
+    "children": [
+      "drawer-close-button#celulares-e-comunicacao",
+      "menu-item#drawer-celulares-e-comunicacao-1",
+      "menu-item#drawer-celulares-e-comunicacao-2"
+    ],
+    "props": {
+      "orientation": "vertical"
+    },
+    "title": "Menu - Celulares e Comunicação"
+  },
+  "drawer-close-button#celulares-e-comunicacao": {
+    "props": {
+      "text": "Celulares e Comunicação"
+    }
+  },
+  "menu-item#drawer-celulares-e-comunicacao-1": {
+    "props": {
+      "id": "menu-item-tecnologia-1",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tecnologia",
+        "noFollow": false,
+        "tagTitle": "Tudo em Celulares e Comunicação",
+        "text": "Tudo em Celulares e Comunicação"
+      }
+    }
+  },
+  "menu-item#drawer-celulares-e-comunicacao-2": {
+    "props": {
+      "blockClass": "drawer-menu-accordion",
+      "type": "custom",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "tagtitle": "Smartphones",
+        "text": "Smartphones"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#drawer-celulares-e-comunicacao-2"
+    ]
+  },
+  "submenu.accordion#drawer-celulares-e-comunicacao-2": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-celulares-e-comunicacao-2"
+    ],
+    "title": "Submenu Accordion"
+  },
+  "vtex.menu@2.x:menu#drawer-celulares-e-comunicacao-2": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-tecnologia-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/smartphones",
+            "noFollow": false,
+            "tagTitle": "Tudo em Smartphones",
+            "text": "Tudo em Smartphones"
+          }
+        }
+      ]
+    }
+  }
+}

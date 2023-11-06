@@ -1,0 +1,137 @@
+{
+  "drawer#submenu-pets": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-pets"
+    ],
+    "blocks": [
+      "drawer-trigger#pets"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Pets"
+  },
+  "drawer-trigger#pets": {
+    "children": [
+      "flex-layout.row#menu-pets"
+    ],
+    "title": "Drawer Trigger - Pets"
+  },
+  "flex-layout.row#menu-pets": {
+    "children": [
+      "rich-text#submenu-pets"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-pets": {
+    "props": {
+      "text": "Pets"
+    },
+    "title": "Titulo - Pets"
+  },
+  "vtex.menu@2.x:menu#drawer-pets": {
+    "children": [
+      "drawer-close-button#pets"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-pets",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pets",
+            "noFollow": false,
+            "tagTitle": "Tudo em Pets",
+            "text": "Tudo em Pets"
+          }
+        },
+        {
+          "id": "item1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pets/acessorios-para-pets",
+            "noFollow": false,
+            "tagTitle": "Acessórios para Pets”",
+            "text": "Acessórios para Pets"
+          }
+        },
+        {
+          "id": "col2-item1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pets/brinquedos-para-pets",
+            "noFollow": false,
+            "tagTitle": "Brinquedos para Pets",
+            "text": "Brinquedos para Pets"
+          }
+        },
+        {
+          "id": "col2-item2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pets/camas-e-capas",
+            "noFollow": false,
+            "tagTitle": "Camas e Capas",
+            "text": "Camas e Capas"
+          }
+        },
+        {
+          "id": "col2-item3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pets/comer-e-beber",
+            "noFollow": false,
+            "tagTitle": "Comer e Beber",
+            "text": "Comer e Beber"
+          }
+        },
+        {
+          "id": "col2-item3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pets/higiene",
+            "noFollow": false,
+            "tagTitle": "Higiene",
+            "text": "Higiene"
+          }
+        },
+        {
+          "id": "col2-item3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pets/roupas-para-pets",
+            "noFollow": false,
+            "tagTitle": "Roupas para Pets",
+            "text": "Roupas para Pets"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Pets"
+  },
+  "drawer-close-button#pets": {
+    "props": {
+      "text": "Pets"
+    }
+  }
+}

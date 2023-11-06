@@ -1,0 +1,144 @@
+{
+  "drawer#submenu-figuras-de-acao": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-figuras-de-acao"
+    ],
+    "blocks": [
+      "drawer-trigger#figuras-de-acao"
+    ],
+    "props": {
+      "blockClass": [
+        "submenu-mobile",
+        "drawer-submenu-mobile"
+      ],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Figuras de Ação"
+  },
+  "drawer-trigger#figuras-de-acao": {
+    "children": [
+      "rich-text#submenu-figuras-de-acao"
+    ],
+    "title": "Drawer Trigger - Figuras de Ação"
+  },
+  "rich-text#submenu-figuras-de-acao": {
+    "props": {
+      "blockClass": "submenu-mobile",
+      "text": "Figuras de Ação"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-figuras-de-acao": {
+    "children": [
+      "drawer-close-button#figuras-de-acao"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao",
+            "noFollow": false,
+            "tagTitle": "Tudo em Figuras de Ação",
+            "text": "Tudo em Figuras de Ação"
+          }
+        },
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao-animacoes",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao/animacoes",
+            "noFollow": false,
+            "tagTitle": "animacoes",
+            "text": "Animações"
+          }
+        },
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao-animes-e-mangas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao/animes-e-mangas",
+            "noFollow": false,
+            "tagTitle": "animes-manga",
+            "text": "Animes e Mangás"
+          }
+        },
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao-celebridades",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao/celebridades",
+            "noFollow": false,
+            "tagTitle": "celebridades",
+            "text": "Celebridades"
+          }
+        },
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao-cinema",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao/cinema",
+            "noFollow": false,
+            "tagTitle": "cinema",
+            "text": "Cinema"
+          }
+        },
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao-games",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao/games",
+            "noFollow": false,
+            "tagTitle": "games",
+            "text": "Games"
+          }
+        },
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao-quadrinhos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao/quadrinhos",
+            "noFollow": false,
+            "tagTitle": "quadrinhos",
+            "text": "Quadrinhos"
+          }
+        },
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis-figuras-de-acao-seriados",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/figuras-de-acao/seriados",
+            "noFollow": false,
+            "tagTitle": "seriados",
+            "text": "Seriados"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Figuras de Ação"
+  },
+  "drawer-close-button#figuras-de-acao": {
+    "props": {
+      "text": "Figuras de Ação"
+    }
+  }
+}

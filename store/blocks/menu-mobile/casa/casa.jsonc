@@ -1,0 +1,233 @@
+{
+  "drawer#submenu-casa": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-casa"
+    ],
+    "blocks": [
+      "drawer-trigger#casa"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Casa"
+  },
+  "drawer-trigger#casa": {
+    "children": [
+      "flex-layout.row#menu-casa"
+    ],
+    "title": "Drawer Trigger - Casa"
+  },
+  "flex-layout.row#menu-casa": {
+    "children": [
+      "rich-text#submenu-casa"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-casa": {
+    "props": {
+      "text": "Casa"
+    },
+    "title": "Titulo - Casa"
+  },
+  "vtex.menu@2.x:menu#drawer-casa": {
+    "children": [
+      "drawer-close-button#casa"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-casa-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/cama-mesa-e-banho",
+            "noFollow": false,
+            "tagTitle": "Tudo em Casa",
+            "text": "Tudo em Casa"
+          }
+        },
+        {
+          "id": "menu-item-casa-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/cama-mesa-e-banho/cama",
+            "noFollow": false,
+            "tagTitle": "Roupas de Cama",
+            "text": "Roupas de Cama"
+          }
+        },
+        {
+          "id": "menu-item-casa-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/cama-mesa-e-banho/mesa",
+            "noFollow": false,
+            "tagTitle": "Mesa",
+            "text": "Mesa"
+          }
+        },
+        {
+          "id": "menu-item-casa-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/cama-mesa-e-banho/banho",
+            "noFollow": false,
+            "tagTitle": "Banho",
+            "text": "Banho"
+          }
+        },
+        {
+          "id": "menu-item-casa-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/cama-mesa-e-banho/enxoval",
+            "noFollow": false,
+            "tagTitle": "Enxoval",
+            "text": "Enxoval"
+          }
+        },
+        {
+          "id": "menu-item-casa-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios",
+            "noFollow": false,
+            "tagTitle": "Móveis e Acessórios",
+            "text": "Móveis e Acessórios"
+          }
+        },
+        {
+          "id": "menu-item-casa-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/cama",
+            "noFollow": false,
+            "tagTitle": "Cama",
+            "text": "Cama"
+          }
+        },
+        {
+          "id": "menu-item-casa-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/berco",
+            "noFollow": false,
+            "tagTitle": "Berço",
+            "text": "Berço"
+          }
+        },
+        {
+          "id": "menu-item-casa-9",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/comoda",
+            "noFollow": false,
+            "tagTitle": "Cômoda",
+            "text": "Cômoda"
+          }
+        },
+        {
+          "id": "menu-item-casa-10",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/guarda-roupa",
+            "noFollow": false,
+            "tagTitle": "Guarda Roupa",
+            "text": "Guarda Roupa"
+          }
+        },
+        {
+          "id": "menu-item-casa-11",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/poltrona-de-amamentacao",
+            "noFollow": false,
+            "tagTitle": "Poltrona de Amamentação",
+            "text": "Poltrona de Amamentação"
+          }
+        },
+        {
+          "id": "menu-item-casa-12",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/prateleiras-e-nichos",
+            "noFollow": false,
+            "tagTitle": "Prateleiras e Nichos",
+            "text": "Prateleiras e Nichos"
+          }
+        },
+        {
+          "id": "menu-item-casa-13",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/escrivaninha",
+            "noFollow": false,
+            "tagTitle": "Escrivaninha",
+            "text": "Escrivaninha"
+          }
+        },
+        {
+          "id": "menu-item-casa-14",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/cadeira-gamer",
+            "noFollow": false,
+            "tagTitle": "Cadeira Gamer",
+            "text": "Cadeira Gamer"
+          }
+        },
+        {
+          "id": "menu-item-casa-15",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/casa/moveis-e-acessorios/decoracao",
+            "noFollow": false,
+            "tagTitle": "Decoração",
+            "text": "Decoração"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Casa"
+  },
+  "drawer-close-button#casa": {
+    "props": {
+      "text": "Casa"
+    }
+  }
+}

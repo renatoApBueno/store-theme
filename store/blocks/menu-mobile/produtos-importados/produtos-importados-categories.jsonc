@@ -1,0 +1,149 @@
+{
+  "drawer#submenu-produtos-importados": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-produtos-importados"
+    ],
+    "blocks": [
+      "drawer-trigger#produtos-importados"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Produtos Importados"
+  },
+  "drawer-trigger#produtos-importados": {
+    "children": [
+      "flex-layout.row#menu-produtos-importados"
+    ],
+    "title": "Drawer Trigger - Produtos Importados"
+  },
+  "flex-layout.row#menu-produtos-importados": {
+    "children": [
+      "rich-text#submenu-produtos-importados"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-produtos-importados": {
+    "props": {
+      "text": "Produtos Importados"
+    },
+    "title": "Titulo - Produtos Importados"
+  },
+  "vtex.menu@2.x:menu#drawer-produtos-importados": {
+    "children": [
+      "drawer-close-button#produtos-importados"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-produtos-importados-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/produtos-importados",
+            "noFollow": false,
+            "tagTitle": "Tudo em Produtos Importados",
+            "text": "Tudo em Produtos Importados"
+          }
+        },
+        {
+          "id": "menu-item-category-produtos-importados-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/baby/3680?initialMap=productClusterIds&initialQuery=3680&map=category-1,productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Baby",
+            "text": "Baby"
+          }
+        },
+        {
+          "id": "menu-item-category-produtos-importados-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/3680?initialMap=productClusterIds&initialQuery=3680&map=category-1,productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Brinquedos",
+            "text": "Brinquedos"
+          }
+        },
+        {
+          "id": "menu-item-category-produtos-importados-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/3680?initialMap=productClusterIds&initialQuery=3680&map=category-1,productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Esportes",
+            "text": "Esportes"
+          }
+        },
+        {
+          "id": "menu-item-category-produtos-importados-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/games/3680?initialMap=productClusterIds&initialQuery=3680&map=category-1,productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Games",
+            "text": "Games"
+          }
+        },
+        {
+          "id": "menu-item-category-produtos-importados-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/computadores-e-informatica/3680?initialMap=productClusterIds&initialQuery=3680&map=category-1,productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Computadores e Informática",
+            "text": "Computadores e Informática"
+          }
+        },
+        {
+          "id": "menu-item-category-produtos-importados-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria/3680?initialMap=productClusterIds&initialQuery=3680&map=category-1,productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Livros e Papelaria",
+            "text": "Livros e Papelaria"
+          }
+        },
+        {
+          "id": "menu-item-category-produtos-importados-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletroportateis/3680?initialMap=productClusterIds&initialQuery=3680&map=category-1,productClusterIds",
+            "noFollow": false,
+            "tagTitle": "Eletroportáteis",
+            "text": "Eletroportáteis"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Produtos Importados"
+  },
+  "drawer-close-button#produtos-importados": {
+    "props": {
+      "text": "Produtos Importados"
+    }
+  }
+}

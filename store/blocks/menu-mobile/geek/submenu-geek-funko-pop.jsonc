@@ -1,0 +1,152 @@
+{
+  "drawer#submenu-funko-pop": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-funko-pop"
+    ],
+    "blocks": [
+      "drawer-trigger#funko-pop"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Funko Pop"
+  },
+  "drawer-trigger#funko-pop": {
+    "children": [
+      "rich-text#submenu-funko-pop"
+    ],
+    "title": "Drawer Trigger - Funko Pop"
+  },
+  "rich-text#submenu-funko-pop": {
+    "props": {
+      "text": "Funko Pop"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-funko-pop": {
+    "children": [
+      "drawer-close-button#funko-pop"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-funko-pop-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop",
+            "noFollow": false,
+            "tagTitle": "Tudo em Funko Pop",
+            "text": "Tudo em Funko Pop"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-animacao",
+            "noFollow": false,
+            "tagTitle": "funko-de-animacao",
+            "text": "Funko de Animação"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-animes-e-mangas",
+            "noFollow": false,
+            "tagTitle": "funko-de-animes-e-mangas",
+            "text": "Funko de Animes e Mangás"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-celebridades",
+            "noFollow": false,
+            "tagTitle": "funko-de-celebridades",
+            "text": "Funko de Celebridades"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-cinema",
+            "noFollow": false,
+            "tagTitle": "funko-de-cinema",
+            "text": "Funko de Cinema"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-edicao-especial",
+            "noFollow": false,
+            "tagTitle": "funko-de-edicao-especial",
+            "text": "Funko de Edição Especial"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-games",
+            "noFollow": false,
+            "tagTitle": "funko-de-games",
+            "text": "Funko de Games"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-musica",
+            "noFollow": false,
+            "tagTitle": "funko-de-musica",
+            "text": "Funko de Música"
+          }
+        },
+        {
+          "id": "menu-item-category-funko-pop-9",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/funko-pop/funko-de-seriados",
+            "noFollow": false,
+            "tagTitle": "funko-de-seriados",
+            "text": "Funko de Seriados"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Funko Pop"
+  },
+  "drawer-close-button#funko-pop": {
+    "props": {
+      "text": "Funko Pop"
+    }
+  }
+}

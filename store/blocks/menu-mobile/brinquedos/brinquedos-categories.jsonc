@@ -1,0 +1,233 @@
+{
+  "drawer#submenu-brinquedos": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-brinquedos"
+    ],
+    "blocks": [
+      "drawer-trigger#brinquedos"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Brinquedos"
+  },
+  "drawer-trigger#brinquedos": {
+    "children": [
+      "flex-layout.row#menu-brinquedos"
+    ],
+    "title": "Drawer Trigger - Brinquedos"
+  },
+  "flex-layout.row#menu-brinquedos": {
+    "children": [
+      "rich-text#submenu-brinquedos"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-brinquedos": {
+    "props": {
+      "text": "Brinquedos"
+    },
+    "title": "Titulo - Brinquedos"
+  },
+  "vtex.menu@2.x:menu#drawer-brinquedos": {
+    "children": [
+      "drawer-close-button#brinquedos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-categor-brinquedos",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos",
+            "noFollow": false,
+            "tagTitle": "Tudo em Brinquedos",
+            "text": "Tudo em Brinquedos"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-artes-e-atividades",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/artes-e-atividades",
+            "noFollow": false,
+            "tagTitle": "Artes e Atividades",
+            "text": "Artes e Atividades"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-blocos-de-montar",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/blocos-de-montar",
+            "noFollow": false,
+            "tagTitle": "Blocos de Montar",
+            "text": "Blocos de Montar"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-bonecas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/bonecas",
+            "noFollow": false,
+            "tagTitle": "Bonecas",
+            "text": "Bonecas"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-bonecos-e-cenarios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/bonecos-e-cenarios",
+            "noFollow": false,
+            "tagTitle": "Bonecos e Cenários",
+            "text": "Bonecos e Cenários"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-carrinhos-e-cia",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/carrinhos-e-cia",
+            "noFollow": false,
+            "tagTitle": "Carrinhos e Cia",
+            "text": "Carrinhos e Cia"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-colecionaveis-e-miniaturas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/colecionaveis-e-miniaturas",
+            "noFollow": false,
+            "tagTitle": "Colecionáveis e Miniaturas",
+            "text": "Colecionáveis e Miniaturas"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-faz-de-conta-e-casinha",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/faz-de-conta-e-casinha",
+            "noFollow": false,
+            "tagTitle": "Faz de Conta e Casinha",
+            "text": "Faz de Conta e Casinha"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-instrumentos-musicais",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/instrumentos-musicais",
+            "noFollow": false,
+            "tagTitle": "Instrumentos Musicais",
+            "text": "Instrumentos Musicais"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-jogos-e-acessorios",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/jogos-e-acessorios",
+            "noFollow": false,
+            "tagTitle": "Jogos e Acessórios",
+            "text": "Jogos e Acessórios"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-lancadores",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/lancadores",
+            "noFollow": false,
+            "tagTitle": "Lançadores",
+            "text": "Lançadores"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-mini-veiculos-eletricos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/mini-veiculos-eletricos",
+            "noFollow": false,
+            "tagTitle": "Mini Veículos Elétricos",
+            "text": "Mini Veículos Elétricos"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-pelucia-e-plush",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/pelucia-e-plush",
+            "noFollow": false,
+            "tagTitle": "Pelúcia e Plush",
+            "text": "Pelúcia e Plush"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-pistas-e-autoramas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/pistas-e-autoramas",
+            "noFollow": false,
+            "tagTitle": "Pistas e Autoramas",
+            "text": "Pistas e Autoramas"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-quebra-cabecas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos/quebra-cabecas",
+            "noFollow": false,
+            "tagTitle": "Quebra-Cabeças",
+            "text": "Quebra-Cabeças"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Brinquedos"
+  },
+  "drawer-close-button#brinquedos": {
+    "props": {
+      "text": "Brinquedos"
+    }
+  }
+}

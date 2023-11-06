@@ -1,0 +1,84 @@
+{
+  "drawer#submenu-baby": {
+    "children": [
+      "flex-layout.row#alimentacao-bebe"
+    ],
+    "blocks": [
+      "drawer-trigger#baby"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Baby"
+  },
+  "drawer-trigger#baby": {
+    "children": [
+      "flex-layout.row#menu-baby"
+    ],
+    "title": "Drawer Trigger - Baby"
+  },
+  "flex-layout.row#menu-baby": {
+    "children": [
+      "rich-text#submenu-baby"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Icone e Texto"
+  },
+  "rich-text#submenu-baby": {
+    "props": {
+      "text": "Baby"
+    },
+    "title": "Titulo - Baby"
+  },
+  "drawer-close-button#baby": {
+    "props": {
+      "text": "Baby"
+    }
+  },
+  "flex-layout.row#alimentacao-bebe": {
+    "children": [
+      "drawer-close-button#baby",
+      "vtex.menu@2.x:menu#menu-baby",
+      "drawer#submenu-alimentacao-bebe",
+      "drawer#submenu-banho-higiene",
+      "drawer#submenu-brinquedos-bebes",
+      "drawer#submenu-mini-veiculos",
+      "drawer#submenu-passeio-bebe",
+      "drawer#submenu-saude-seguranca"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "row-submenu-mobile"
+      ]
+    },
+    "title": "Submenus"
+  },
+  "vtex.menu@2.x:menu#menu-baby": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-baby",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/baby",
+            "noFollow": false,
+            "tagTitle": "Tudo em Baby",
+            "text": "Tudo em Baby"
+          }
+        }
+      ]
+    },
+    "title": "Submenu - Baby"
+  }
+}

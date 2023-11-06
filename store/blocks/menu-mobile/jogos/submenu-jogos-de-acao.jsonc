@@ -1,0 +1,152 @@
+{
+  "drawer#submenu-jogos-de-acao": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-jogos-de-acao"
+    ],
+    "blocks": [
+      "drawer-trigger#jogos-de-acao"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Jogos de Ação"
+  },
+  "drawer-trigger#jogos-de-acao": {
+    "children": [
+      "rich-text#submenu-jogos-de-acao"
+    ],
+    "title": "Drawer Trigger - Jogos de Ação"
+  },
+  "rich-text#submenu-jogos-de-acao": {
+    "props": {
+      "text": "Jogos de Ação"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-jogos-de-acao": {
+    "children": [
+      "drawer-close-button#jogos-de-acao"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-jogos-de-acao-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao",
+            "noFollow": false,
+            "tagTitle": "Tudo em Jogos de Ação",
+            "text": "Tudo em Jogos de Ação"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/cara-a-cara",
+            "noFollow": false,
+            "tagTitle": "Cara a Cara",
+            "text": "Cara a Cara"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/imagem-e-acao",
+            "noFollow": false,
+            "tagTitle": "Imagem e Ação",
+            "text": "Imagem e Ação"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/jenga",
+            "noFollow": false,
+            "tagTitle": "Jenga",
+            "text": "Jenga"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/jogo-de-adivinhacao",
+            "noFollow": false,
+            "tagTitle": "Jogo de Adivinhação",
+            "text": "Jogo de Adivinhação"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/outros-jogos",
+            "noFollow": false,
+            "tagTitle": "Outros Jogos",
+            "text": "Outros Jogos"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/pega-vareta",
+            "noFollow": false,
+            "tagTitle": "Pega Vareta",
+            "text": "Pega Vareta"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/pula-pirata",
+            "noFollow": false,
+            "tagTitle": "Pula Pirata",
+            "text": "Pula Pirata"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-acao-9",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-acao/twister",
+            "noFollow": false,
+            "tagTitle": "Twister",
+            "text": "Twister"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Jogos de Ação"
+  },
+  "drawer-close-button#jogos-de-acao": {
+    "props": {
+      "text": "Jogos de Ação"
+    }
+  }
+}

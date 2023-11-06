@@ -1,0 +1,154 @@
+{
+  "drawer#menu-mobile": {
+    "children": [
+      "flex-layout.row#menu-mobile-context"
+    ],
+    "props": {
+      "blockClass": "drawer-menu-mobile",
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    }
+  },
+  "flex-layout.row#menu-mobile-context": {
+    "children": [
+      "menu#mobile"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "menu#mobile": {
+    "children": [
+      "flex-layout.row#menu-mobile-logo",
+      "flex-layout.row#menu-mobile-button--login",
+      "flex-layout.row#menu-mobile-button-happy-mais",
+      "flex-layout.row#menu-mobile-footer",
+      "flex-layout.row#menu-mobile-button--close",
+      "drawer#submenu-brinquedos",
+      "drawer#submenu-baby",
+      "drawer#submenu-esportes",
+      "drawer#submenu-produtos-importados",
+      "drawer#submenu-computadores-e-informatica",
+      "drawer#submenu-cartao-presente",
+      "drawer#submenu-fantasias",
+      "drawer#submenu-jogos",
+      "drawer#submenu-geek",
+      "drawer#submenu-livros-e-papelaria",
+      "drawer#submenu-casa",
+      "drawer#submenu-moda",
+      "drawer#submenu-pets",
+      "drawer#submenu-guloseimas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-mobile-nav"
+    }
+  },
+  "flex-layout.row#menu-mobile-logo": {
+    "children": [],
+    "props": {
+      "blockClass": "menu-mobile-logo",
+      "marginTop": 6,
+      "marginBottom": 6,
+      "width": "grow",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#menu-mobile-button--close": {
+    "children": [
+      "drawer-close-button#btn-close-menu-mobile"
+    ],
+    "props": {
+      "blockClass": "menu-mobile-button--close",
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#menu-mobile-button-happy-mais": {
+    "children": [
+      "link#header-mobile-cashback"
+      //"happy-mais-header"
+    ],
+    "props": {
+      "blockClass": [
+        "menu-mobile-button-happy-mais"
+      ],
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "width": "grow"
+    }
+  },
+  "link#header-mobile-cashback": {
+    "children": [
+      "image#header-mobile-cashback",
+      "rich-text#cashback-header-link-mobile"
+    ],
+    "props": {
+      "href": "/happymais",
+      "blockClass": [
+        "happy-mais-header-link-mobile"
+      ]
+    },
+    "title": "Content - Happy mais"
+  },
+  "image#header-mobile-cashback": {
+    "props": {
+      "maxHeight": "30px",
+      "maxWidth": "54px",
+      "src": ""
+    },
+    "title": "Imagem cashback"
+  },
+  "rich-text#cashback-header-link-mobile": {
+    "props": {
+      "blockClass": [
+        "cashback-header-link-mobile"
+      ],
+      "text": "Quero benefícios! **cadastre-se.**",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    }
+  },
+  "flex-layout.row#menu-mobile-button--login": {
+    "children": [
+      "login#menu-mobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "blockClass": "menu-mobile-button-login",
+      "width": "grow"
+    }
+  },
+  "login#menu-mobile": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Olá, Entre ou Cadastre-se"
+    }
+  },
+  "drawer-close-button#btn-close-menu-mobile": {
+    "props": {
+      "size": 30
+    }
+  },
+  "flex-layout.row#menu-mobile-banner-campaign": {
+    "title": "row banner menu mobile",
+    "children": [
+      "image#banner-menu-mobile"
+    ],
+    "props": {
+      "marginTop": 6,
+      "marginBottom": 6,
+      "blockClass": "banner-mobile-container"
+    }
+  },
+  "image#banner-menu-mobile": {
+    "props": {
+      "title": "banner menu mobile",
+      "src": "",
+      "maxHeight": "70px",
+      "alt": "Banner happy friday",
+      "url": "/#"
+    }
+  }
+}

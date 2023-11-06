@@ -1,0 +1,100 @@
+{
+  "drawer#submenu-cama-mesa-banho": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-cama-mesa-banho"
+    ],
+    "blocks": [
+      "drawer-trigger#cama-mesa-banho"
+    ],
+    "props": {
+      "isFullWidth": false
+    },
+    "title": "Drawer - Cama, Mesa e Banho"
+  },
+  "drawer-trigger#cama-mesa-banho": {
+    "children": [
+      "flex-layout.row#menu-cama-mesa-banho"
+    ],
+    "title": "Drawer Trigger - Cama, Mesa e Banho"
+  },
+  "flex-layout.row#menu-cama-mesa-banho": {
+    "children": [
+      "rich-text#submenu-cama-mesa-banho"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-cama-mesa-banho": {
+    "props": {
+      "text": "Cama, Mesa e Banho"
+    },
+    "title": "Titulo - Cama, Mesa e Banho"
+  },
+  "vtex.menu@2.x:menu#drawer-cama-mesa-banho": {
+    "children": [
+      "drawer-close-button#cama-mesa-banho"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-cama-mesa-banho",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-banho",
+            "noFollow": false,
+            "tagTitle": "Tudo em Cama, Mesa e Banho",
+            "text": "Tudo em Cama, Mesa e Banho"
+          }
+        },
+        {
+          "id": "menu-item-category-cama-mesa-e-banho-banho",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-e-banho/banho",
+            "noFollow": false,
+            "tagTitle": "Banho",
+            "text": "Banho"
+          }
+        },
+        {
+          "id": "menu-item-category-cama-mesa-e-banho-cama",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-e-banho/cama",
+            "noFollow": false,
+            "tagTitle": "Cama",
+            "text": "Cama"
+          }
+        },
+        {
+          "id": "menu-item-category-cama-mesa-e-banho-enxoval",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cama-mesa-e-banho/enxoval",
+            "noFollow": false,
+            "tagTitle": "Enxoval",
+            "text": "Enxoval"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Cama, Mesa e Banho"
+  },
+  "drawer-close-button#cama-mesa-banho": {
+    "props": {
+      "text": "Cama, Mesa e Banho"
+    }
+  }
+}

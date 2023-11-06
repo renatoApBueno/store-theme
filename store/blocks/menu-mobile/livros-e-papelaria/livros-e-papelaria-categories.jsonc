@@ -1,0 +1,137 @@
+{
+  "drawer#submenu-livros-e-papelaria": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-livros-e-papelaria"
+    ],
+    "blocks": [
+      "drawer-trigger#livros-e-papelaria"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Livros e Papelaria"
+  },
+  "drawer-trigger#livros-e-papelaria": {
+    "children": [
+      "flex-layout.row#menu-livros-e-papelaria"
+    ],
+    "title": "Drawer Trigger - Livros e Papelaria"
+  },
+  "flex-layout.row#menu-livros-e-papelaria": {
+    "children": [
+      "rich-text#submenu-livros-e-papelaria"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-livros-e-papelaria": {
+    "props": {
+      "text": "Livros e Papelaria"
+    },
+    "title": "Titulo - Livros e Papelaria"
+  },
+  "drawer-close-button#livros-e-papelaria": {
+    "props": {
+      "text": "Livros e Papelaria"
+    }
+  },
+  "vtex.menu@2.x:menu#drawer-livros-e-papelaria": {
+    "children": [
+      "drawer-close-button#livros-e-papelaria"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-livros-e-papelaria-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria",
+            "noFollow": false,
+            "tagTitle": "Tudo em Livros e Papelaria",
+            "text": "Tudo em Livros e Papelaria"
+          }
+        },
+        {
+          "id": "menu-item-category-livros-e-papelaria-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria/artigos-para-festas",
+            "noFollow": false,
+            "tagTitle": "Artigos para Festas",
+            "text": "Artigos para Festas"
+          }
+        },
+        {
+          "id": "menu-item-category-livros-e-papelaria-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria/bolsas-e-mochilas",
+            "noFollow": false,
+            "tagTitle": "Bolsas e Mochilas",
+            "text": "Bolsas e Mochilas"
+          }
+        },
+        {
+          "id": "menu-item-category-livros-e-papelaria-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria/livros",
+            "noFollow": false,
+            "tagTitle": "Livros",
+            "text": "Livros"
+          }
+        },
+        {
+          "id": "menu-item-category-livros-e-papelaria-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria/papelaria",
+            "noFollow": false,
+            "tagTitle": "Papelaria",
+            "text": "Papelaria"
+          }
+        },
+        {
+          "id": "menu-item-category-livros-e-papelaria-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria/pilhas-e-baterias",
+            "noFollow": false,
+            "tagTitle": "Pilhas e Baterias",
+            "text": "Pilhas e Baterias"
+          }
+        },
+        {
+          "id": "menu-item-category-livros-e-papelaria-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/livros-e-papelaria/souvenirs",
+            "noFollow": false,
+            "tagTitle": "Souvenirs",
+            "text": "Souvenirs"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Livros e Papelaria"
+  }
+}

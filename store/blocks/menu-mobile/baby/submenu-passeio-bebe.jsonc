@@ -1,0 +1,140 @@
+{
+  "drawer#submenu-passeio-bebe": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-passeio-bebe"
+    ],
+    "blocks": [
+      "drawer-trigger#passeio-bebe"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Passeio do Bebê"
+  },
+  "drawer-trigger#passeio-bebe": {
+    "children": [
+      "rich-text#submenu-passeio-bebe"
+    ],
+    "title": "Drawer Trigger - Passeio do Bebê"
+  },
+  "rich-text#submenu-passeio-bebe": {
+    "props": {
+      "text": "Passeio do Bebê"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-passeio-bebe": {
+    "children": [
+      "drawer-close-button#passeio-bebe"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-passeio-do-bebe",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe",
+            "noFollow": false,
+            "tagTitle": "Tudo em Passeio do Bebê",
+            "text": "Tudo em Passeio do Bebê"
+          }
+        },
+        {
+          "id": "menu-item-category-passeio-do-bebe-acessorios-para-passeio",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe/acessorios-para-passeio",
+            "noFollow": false,
+            "tagTitle": "Acessórios para Passeio",
+            "text": "Acessórios para Passeio"
+          }
+        },
+        {
+          "id": "menu-item-category-passeio-do-bebe-cadeira-para-auto-assento-de-elevacao",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe/cadeira-para-auto/assento-de-elevacao",
+            "noFollow": false,
+            "tagTitle": "Assento de Elevação",
+            "text": "Assento de Elevação"
+          }
+        },
+        {
+          "id": "menu-item-category-passeio-do-bebe-cadeira-para-auto-bebe-conforto",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe/cadeira-para-auto/bebe-conforto",
+            "noFollow": false,
+            "tagTitle": "Bebê Conforto",
+            "text": "Bebê Conforto"
+          }
+        },
+        {
+          "id": "menu-item-category-passeio-do-bebe-cadeira-para-auto",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe/cadeira-para-auto",
+            "noFollow": false,
+            "tagTitle": "Cadeira para Auto",
+            "text": "Cadeira para Auto"
+          }
+        },
+        {
+          "id": "menu-item-category-passeio-do-bebe-carrinho-de-bebe-carrinho-com-bebe-conforto",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe/carrinho-de-bebe/carrinho-com-bebe-conforto",
+            "noFollow": false,
+            "tagTitle": "Carrinho com Bebê Conforto",
+            "text": "Carrinho com Bebê Conforto"
+          }
+        },
+        {
+          "id": "menu-item-category-passeio-do-bebe-carrinho-de-bebe-carrinho-de-passeio",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe/carrinho-de-bebe/carrinho-de-passeio",
+            "noFollow": false,
+            "tagTitle": "Carrinho de Passeio",
+            "text": "Carrinho de Passeio"
+          }
+        },
+        {
+          "id": "menu-item-category-passeio-do-bebe-carrinho-de-bebe-carrinho-para-gemeos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/passeio-do-bebe/carrinho-de-bebe/carrinho-para-gemeos",
+            "noFollow": false,
+            "tagTitle": "Carrinho para Gêmeos",
+            "text": "Carrinho para Gêmeos"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Passeio do Bebê"
+  },
+  "drawer-close-button#passeio-bebe": {
+    "props": {
+      "text": "Passeio do Bebê"
+    }
+  }
+}

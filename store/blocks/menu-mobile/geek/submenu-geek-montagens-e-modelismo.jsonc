@@ -1,0 +1,68 @@
+{
+  "drawer#submenu-montagens-modelismos": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-montagens-modelismos"
+    ],
+    "blocks": [
+      "drawer-trigger#montagens-modelismos"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Montagens e Modelismos"
+  },
+  "drawer-trigger#montagens-modelismos": {
+    "children": [
+      "rich-text#submenu-montagens-modelismos"
+    ],
+    "title": "Drawer Trigger - Montagens e Modelismos"
+  },
+  "rich-text#submenu-montagens-modelismos": {
+    "props": {
+      "text": "Montagens e Modelismos"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-montagens-modelismos": {
+    "children": [
+      "drawer-close-button#montagens-modelismos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-montagens-modelismos-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/montagens-e-modelismos",
+            "noFollow": false,
+            "tagTitle": "Tudo em Montagens e Modelismos",
+            "text": "Tudo em Montagens e Modelismos"
+          }
+        },
+        {
+          "id": "menu-item-category-montagens-modelismos-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis/montagens-e-modelismo/kit-montagem-e-modelismo",
+            "noFollow": false,
+            "tagTitle": "kit-montagem-e-modelismo",
+            "text": "Kit Montagem e Modelismo"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Montagens e Modelismos"
+  },
+  "drawer-close-button#montagens-modelismos": {
+    "props": {
+      "text": "Montagens e Modelismos"
+    }
+  }
+}

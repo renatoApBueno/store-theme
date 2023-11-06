@@ -1,0 +1,80 @@
+{
+  "drawer#submenu-fantasias-adultos": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-fantasias-adultos"
+    ],
+    "blocks": [
+      "drawer-trigger#fantasias-adultos"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Fantasias Adultos"
+  },
+  "drawer-trigger#fantasias-adultos": {
+    "children": [
+      "rich-text#submenu-fantasias-adultos"
+    ],
+    "title": "Drawer Trigger - Fantasias Adultos"
+  },
+  "rich-text#submenu-fantasias-adultos": {
+    "props": {
+      "text": "Fantasias Adultos"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-fantasias-adultos": {
+    "children": [
+      "drawer-close-button#fantasias-adultos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-fantasias-adultos-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/adulto",
+            "noFollow": false,
+            "tagTitle": "Tudo em Fantasias Adulto",
+            "text": "Tudo em Fantasias Adulto"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-adultos-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/adulto/fantasias-femininas",
+            "noFollow": false,
+            "tagTitle": "Fantasias Femininas",
+            "text": "Fantasias Femininas"
+          }
+        },
+        {
+          "id": "menu-item-category-fantasias-adultos-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias/adulto/fantasias-masculinas",
+            "noFollow": false,
+            "tagTitle": "Fantasias Masculinas",
+            "text": "Fantasias Masculinas"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Fantasias Adultos"
+  },
+  "drawer-close-button#fantasias-adultos": {
+    "props": {
+      "text": "Fantasias Adultos"
+    }
+  }
+}

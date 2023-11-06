@@ -1,0 +1,149 @@
+{
+  "drawer#submenu-esportes": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-esportes"
+    ],
+    "blocks": [
+      "drawer-trigger#esportes"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Esportes"
+  },
+  "drawer-trigger#esportes": {
+    "children": [
+      "flex-layout.row#menu-esportes"
+    ],
+    "title": "Drawer Trigger - Esportes"
+  },
+  "flex-layout.row#menu-esportes": {
+    "children": [
+      "rich-text#submenu-esportes"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-esportes": {
+    "props": {
+      "text": "Esportes"
+    },
+    "title": "Titulo - Esportes"
+  },
+  "vtex.menu@2.x:menu#drawer-esportes": {
+    "children": [
+      "drawer-close-button#esportes"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-esportes-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes",
+            "noFollow": false,
+            "tagTitle": "Tudo em Esportes",
+            "text": "Tudo em Esportes"
+          }
+        },
+        {
+          "id": "menu-item-category-esportes-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/acessorios-esportivos",
+            "noFollow": false,
+            "tagTitle": "Acessórios Esportivos",
+            "text": "Acessórios Esportivos"
+          }
+        },
+        {
+          "id": "menu-item-category-esportes-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/bicicletas",
+            "noFollow": false,
+            "tagTitle": "Bicicletas",
+            "text": "Bicicletas"
+          }
+        },
+        {
+          "id": "menu-item-category-esportes-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/bolas-esportivas",
+            "noFollow": false,
+            "tagTitle": "Bolas Esportivas",
+            "text": "Bolas Esportivas"
+          }
+        },
+        {
+          "id": "menu-item-category-esportes-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/calcados-esportivos",
+            "noFollow": false,
+            "tagTitle": "Calçados Esportivos",
+            "text": "Calçados Esportivos"
+          }
+        },
+        {
+          "id": "menu-item-category-esportes-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/patins-skates-e-patinetes",
+            "noFollow": false,
+            "tagTitle": "Patins, Skates e Patinetes",
+            "text": "Patins, Skates e Patinetes"
+          }
+        },
+        {
+          "id": "menu-item-category-esportes-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/praia-e-piscina",
+            "noFollow": false,
+            "tagTitle": "Praia e Piscina",
+            "text": "Praia e Piscina"
+          }
+        },
+        {
+          "id": "menu-item-category-esportes-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/esportes/playgrounds",
+            "noFollow": false,
+            "tagTitle": "Playgrounds",
+            "text": "Playgrounds"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Esportes"
+  },
+  "drawer-close-button#esportes": {
+    "props": {
+      "text": "Esportes"
+    }
+  }
+}

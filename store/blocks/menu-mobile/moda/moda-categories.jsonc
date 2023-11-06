@@ -1,0 +1,113 @@
+{
+  "drawer#submenu-moda": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-moda"
+    ],
+    "blocks": [
+      "drawer-trigger#moda"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Moda"
+  },
+  "drawer-trigger#moda": {
+    "children": [
+      "flex-layout.row#menu-moda"
+    ],
+    "title": "Drawer Trigger - Moda"
+  },
+  "flex-layout.row#menu-moda": {
+    "children": [
+      "rich-text#submenu-moda"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-moda": {
+    "props": {
+      "text": "Moda"
+    },
+    "title": "Titulo - Moda"
+  },
+  "vtex.menu@2.x:menu#drawer-moda": {
+    "children": [
+      "drawer-close-button#moda"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-moda-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda",
+            "noFollow": false,
+            "tagTitle": "Tudo em Moda",
+            "text": "Tudo em Moda"
+          }
+        },
+        {
+          "id": "menu-item-category-moda-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda/calcados-infantis",
+            "noFollow": false,
+            "tagTitle": "Calçados Infantis",
+            "text": "Calçados Infantis"
+          }
+        },
+        {
+          "id": "menu-item-category-moda-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda/moda-bebe",
+            "noFollow": false,
+            "tagTitle": "Moda Bebê",
+            "text": "Moda Bebê"
+          }
+        },
+        {
+          "id": "menu-item-category-moda-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda/infantil-meninas",
+            "noFollow": false,
+            "tagTitle": "Moda Menina",
+            "text": "Moda Menina"
+          }
+        },
+        {
+          "id": "menu-item-category-moda-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda/infantil-meninos",
+            "noFollow": false,
+            "tagTitle": "Moda Meninos",
+            "text": "Moda Meninos"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Moda"
+  },
+  "drawer-close-button#moda": {
+    "props": {
+      "text": "Moda"
+    }
+  }
+}

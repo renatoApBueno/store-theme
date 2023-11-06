@@ -1,0 +1,147 @@
+{
+  "flex-layout.row#menu-mobile-footer": {
+    "children": [
+      "link#menu-mobile-stores",
+      "link#menu-mobile-gift-list",
+      "link#menu-mobile-become-franchisee",
+      "link#menu-mobile-my-orders",
+      "link#menu-mobile-blog",
+      "link#menu-mobile-sac"
+    ],
+    "props": {
+      "blockClass": "menu-mobile-footer-link",
+      "fullWidth": true
+    },
+    "title": "Links da minha conta"
+  },
+  "link#menu-mobile-stores": {
+    "children": [
+      "rich-text#menu-mobile-stores"
+    ],
+    "props": {
+      "href": "/nossas-lojas",
+      "blockClass": [
+        "footer-menu-mobile"
+      ]
+    },
+    "title": "Content - nossas lojas"
+  },
+  "rich-text#menu-mobile-stores": {
+    "props": {
+      "blockClass": "menu-mobile-link-text",
+      "text": "Nossas Lojas",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    },
+    "title": "Text - nossas lojas"
+  },
+  "link#menu-mobile-gift-list": {
+    "children": [
+      "rich-text#menu-mobile-gift-list"
+    ],
+    "props": {
+      "href": "https://listapresente.gruporihappy.com.br/inicio?utm_source=ecomm-rihappy&utm_medium=menu-mobile&utm_campaign=link",
+      "target": "_blank",
+      "blockClass": [
+        "footer-menu-mobile"
+      ]
+    },
+    "title": "Content - nossas lojas"
+  },
+  "rich-text#menu-mobile-gift-list": {
+    "props": {
+      "blockClass": "menu-mobile-link-text",
+      "text": "Lista de presentes",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    },
+    "title": "Text - Lista de presentes"
+  },
+  "link#menu-mobile-become-franchisee": {
+    "children": [
+      "rich-text#menu-mobile-become-franchisee"
+    ],
+    "props": {
+      "href": "/franquia",
+      "target": "_blank",
+      "blockClass": [
+        "footer-menu-mobile"
+      ]
+    },
+    "title": "Content - Seja um franqueado"
+  },
+  "rich-text#menu-mobile-become-franchisee": {
+    "props": {
+      "blockClass": "menu-mobile-link-text",
+      "text": "Seja um franqueado",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    },
+    "title": "Text - Seja um franqueado"
+  },
+  "link#menu-mobile-my-orders": {
+    "children": [
+      "rich-text#menu-mobile-my-orders"
+    ],
+    "props": {
+      "href": "/account#/orders",
+      "blockClass": [
+        "footer-menu-mobile"
+      ]
+    },
+    "title": "Content - Meus pedidos"
+  },
+  "rich-text#menu-mobile-my-orders": {
+    "props": {
+      "blockClass": "menu-mobile-link-text",
+      "text": "Meus pedidos",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    },
+    "title": "Text - Meus pedidos"
+  },
+  "link#menu-mobile-blog": {
+    "children": [
+      "rich-text#menu-mobile-blog"
+    ],
+    "props": {
+      "href": "https://modobrincar.rihappy.com.br/",
+      "target": "_blank",
+      "blockClass": [
+        "footer-menu-mobile"
+      ]
+    },
+    "title": "Content - Blogs"
+  },
+  "rich-text#menu-mobile-blog": {
+    "props": {
+      "blockClass": "menu-mobile-link-text",
+      "text": "Modo brincar",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    },
+    "title": "Text - Blogs"
+  },
+  "link#menu-mobile-sac": {
+    "children": [
+      "rich-text#menu-mobile-sac"
+    ],
+    "props": {
+      "href": "https://rihappy.custhelp.com/",
+      "target": "_blank",
+      "blockClass": [
+        "footer-menu-mobile"
+      ]
+    },
+    "title": "Content - Sac"
+  },
+  "rich-text#menu-mobile-sac": {
+    "props": {
+      "blockClass": "menu-mobile-link-text",
+      "text": "Fale conosco",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT"
+    },
+    "title": "Text - Fale conosco"
+  }
+}

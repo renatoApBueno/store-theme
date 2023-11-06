@@ -1,0 +1,173 @@
+{
+  "drawer#submenu-computadores-e-informatica": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-computadores-e-informatica"
+    ],
+    "blocks": [
+      "drawer-trigger#computadores-e-informatica"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Técnologia"
+  },
+  "drawer-trigger#computadores-e-informatica": {
+    "children": [
+      "flex-layout.row#menu-computadores-e-informatica"
+    ],
+    "title": "Drawer Trigger - Computadores e Informática"
+  },
+  "flex-layout.row#menu-computadores-e-informatica": {
+    "children": [
+      "rich-text#submenu-computadores-e-informatica"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-computadores-e-informatica": {
+    "props": {
+      "text": "Técnologia"
+    },
+    "title": "Titulo - Técnologia"
+  },
+  "vtex.menu@2.x:menu#drawer-computadores-e-informatica": {
+    "children": [
+      "drawer-close-button#computadores-e-informatica"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-tecnologia-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia",
+            "noFollow": false,
+            "tagTitle": "Tudo em Técnologia",
+            "text": "Tudo em Técnologia"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/caixa-de-som",
+            "noFollow": false,
+            "tagTitle": "Caixa de Som",
+            "text": "Caixa de Som"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/carregadores-e-acessorios",
+            "noFollow": false,
+            "tagTitle": "Carregadores e Acessórios",
+            "text": "Carregadores e Acessórios"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/consoles",
+            "noFollow": false,
+            "tagTitle": "Consoles",
+            "text": "Consoles"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/controles",
+            "noFollow": false,
+            "tagTitle": "Controles",
+            "text": "Controles"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/fones-de-ouvido",
+            "noFollow": false,
+            "tagTitle": "Fones de Ouvidos",
+            "text": "Fones de Ouvidos"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/gamer",
+            "noFollow": false,
+            "tagTitle": "Gamer",
+            "text": "Gamer"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/informatica",
+            "noFollow": false,
+            "tagTitle": "Informática",
+            "text": "Informática"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-9",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/jogos-de-video-game",
+            "noFollow": false,
+            "tagTitle": "Jogos de Video Game",
+            "text": "Jogos de Video Game"
+          }
+        },
+        {
+          "id": "menu-item-category-tecnologia-10",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tecnologia/smartphones-e-celulares",
+            "noFollow": false,
+            "tagTitle": "Smartphones e Celulares",
+            "text": "Smartphones e Celulares"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Técnologia"
+  },
+  "drawer-close-button#computadores-e-informatica": {
+    "props": {
+      "text": "Técnologia"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "drawer#submenu-eletroportateis": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-eletroportateis"
+    ],
+    "blocks": [
+      "drawer-trigger#eletroportateis"
+    ],
+    "props": {
+      "isFullWidth": false
+    },
+    "title": "Drawer - Eletroportáteis"
+  },
+  "drawer-trigger#eletroportateis": {
+    "children": [
+      "rich-text#submenu-eletroportateis"
+    ],
+    "title": "Drawer Trigger - Eletroportáteis"
+  },
+  "rich-text#submenu-eletroportateis": {
+    "props": {
+      "text": "Eletroportáteis"
+    },
+    "title": "Titulo - Eletroportáteis"
+  },
+  "vtex.menu@2.x:menu#drawer-eletroportateis": {
+    "children": [
+      "drawer-close-button#eletroportateis",
+      "menu-item#drawer-eletroportateis-1",
+      "menu-item#drawer-eletroportateis-2"
+    ],
+    "props": {
+      "orientation": "vertical"
+    },
+    "title": "Menu - Eletroportáteis"
+  },
+  "drawer-close-button#eletroportateis": {
+    "props": {
+      "text": "Eletroportáteis"
+    }
+  },
+  "menu-item#drawer-eletroportateis-1": {
+    "props": {
+      "id": "menu-item-category-eletroportateis-1",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/eletroportateis",
+        "noFollow": false,
+        "tagTitle": "Tudo em Eletroportáteis",
+        "text": "Tudo em Eletroportáteis"
+      }
+    }
+  },
+  "menu-item#drawer-eletroportateis-2": {
+    "props": {
+      "blockClass": "drawer-menu-accordion",
+      "type": "custom",
+      "highlight": false,
+      "id": "menu-category-item-eletroportateis-2",
+      "itemProps": {
+        "tagTitle": "Cozinha Criativa",
+        "text": "Cozinha Criativa"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#drawer-eletroportateis-2"
+    ]
+  },
+  "submenu.accordion#drawer-eletroportateis-2": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-eletroportateis-2"
+    ],
+    "title": "Submenu Accordion"
+  },
+  "vtex.menu@2.x:menu#drawer-eletroportateis-2": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-eletroportateis-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/eletroportateis/cozinha-criativa",
+            "noFollow": false,
+            "tagTitle": "Tudo em Cozinha Criativa",
+            "text": "Tudo em Cozinha Criativa"
+          }
+        }
+      ]
+    }
+  }
+}

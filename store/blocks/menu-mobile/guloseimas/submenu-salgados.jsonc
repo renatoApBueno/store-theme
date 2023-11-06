@@ -1,0 +1,128 @@
+{
+  "drawer#submenu-salgados": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-salgados"
+    ],
+    "blocks": [
+      "drawer-trigger#salgados"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Salgados"
+  },
+  "drawer-trigger#salgados": {
+    "children": [
+      "rich-text#submenu-salgados"
+    ],
+    "title": "Drawer Trigger - Salgados"
+  },
+  "rich-text#submenu-salgados": {
+    "props": {
+      "text": "Salgados"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-salgados": {
+    "children": [
+      "drawer-close-button#salgados"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-salgados-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/salgados",
+            "noFollow": false,
+            "tagTitle": "Tudo em Salgados",
+            "text": "Tudo em Salgados"
+          }
+        },
+        {
+          "id": "menu-item-category-salgados-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/salgados/amendoin",
+            "noFollow": false,
+            "tagTitle": "Amendoin",
+            "text": "Amendoin"
+          }
+        },
+        {
+          "id": "menu-item-category-salgados-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/salgados/batatas",
+            "noFollow": false,
+            "tagTitle": "Batatas",
+            "text": "Batatas"
+          }
+        },
+        {
+          "id": "menu-item-category-salgados-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/salgados/biscoito-salgados",
+            "noFollow": false,
+            "tagTitle": "Biscoito Salgados",
+            "text": "Biscoito Salgados"
+          }
+        },
+        {
+          "id": "menu-item-category-salgados-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/salgados/bolacha-salgada",
+            "noFollow": false,
+            "tagTitle": "Bolacha Salgada",
+            "text": "Bolacha Salgada"
+          }
+        },
+        {
+          "id": "menu-item-category-salgados-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/salgados/pipoca-salgada",
+            "noFollow": false,
+            "tagTitle": "Pipoca Salgada",
+            "text": "Pipoca Salgada"
+          }
+        },
+        {
+          "id": "menu-item-category-salgados-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/salgados/salgadinhos",
+            "noFollow": false,
+            "tagTitle": "Salgadinhos",
+            "text": "Salgadinhos"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Salgados"
+  },
+  "drawer-close-button#salgados": {
+    "props": {
+      "text": "Salgados"
+    }
+  }
+}

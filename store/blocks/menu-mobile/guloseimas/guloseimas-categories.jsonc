@@ -1,0 +1,80 @@
+{
+  "drawer#submenu-guloseimas": {
+    "children": [
+      "flex-layout.row#guloseimas"
+    ],
+    "blocks": [
+      "drawer-trigger#guloseimas"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Guloseimas"
+  },
+  "drawer-trigger#guloseimas": {
+    "children": [
+      "flex-layout.row#menu-guloseimas"
+    ],
+    "title": "Drawer Trigger - Guloseimas"
+  },
+  "flex-layout.row#menu-guloseimas": {
+    "children": [
+      "rich-text#submenu-guloseimas"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Icone e Texto"
+  },
+  "rich-text#submenu-guloseimas": {
+    "props": {
+      "text": "Guloseimas"
+    },
+    "title": "Titulo - Guloseimas"
+  },
+  "drawer-close-button#guloseimas": {
+    "props": {
+      "text": "Guloseimas"
+    }
+  },
+  "flex-layout.row#guloseimas": {
+    "children": [
+      "drawer-close-button#guloseimas",
+      "vtex.menu@2.x:menu#menu-guloseimas",
+      "drawer#submenu-doces"
+      // "drawer#submenu-salgados"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "row-submenu-mobile"
+      ]
+    },
+    "title": "Submenus"
+  },
+  "vtex.menu@2.x:menu#menu-guloseimas": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-guloseimas",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas",
+            "noFollow": false,
+            "tagTitle": "Tudo em Guloseimas",
+            "text": "Tudo em Guloseimas"
+          }
+        }
+      ]
+    },
+    "title": "Submenu - Guloseimas"
+  }
+}

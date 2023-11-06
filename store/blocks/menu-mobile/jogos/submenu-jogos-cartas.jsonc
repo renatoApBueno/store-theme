@@ -1,0 +1,164 @@
+{
+  "drawer#submenu-jogos-de-cartas": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-jogos-de-cartas"
+    ],
+    "blocks": [
+      "drawer-trigger#jogos-de-cartas"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Jogos de Cartas"
+  },
+  "drawer-trigger#jogos-de-cartas": {
+    "children": [
+      "rich-text#submenu-jogos-de-cartas"
+    ],
+    "title": "Drawer Trigger - Jogos de Cartas"
+  },
+  "rich-text#submenu-jogos-de-cartas": {
+    "props": {
+      "text": "Jogos de Cartas"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-jogos-de-cartas": {
+    "children": [
+      "drawer-close-button#jogos-de-cartas"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-jogos-de-cartas-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas",
+            "noFollow": false,
+            "tagTitle": "Tudo em Jogos de Cartas",
+            "text": "Tudo em Jogos de Cartas"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/acessorios-de-cartas",
+            "noFollow": false,
+            "tagTitle": "Acessórios de Cartas",
+            "text": "Acessórios de Cartas"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/baralho",
+            "noFollow": false,
+            "tagTitle": "Baralho",
+            "text": "Baralho"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/cartas-colecionaveis",
+            "noFollow": false,
+            "tagTitle": "Cartas Colecionáveis",
+            "text": "Cartas Colecionáveis"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/cartas-de-batalha",
+            "noFollow": false,
+            "tagTitle": "Cartas de Batalha",
+            "text": "Cartas de Batalha"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/cartas-diversas",
+            "noFollow": false,
+            "tagTitle": "Cartas Diversas",
+            "text": "Cartas Diversas"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/cartas-magic",
+            "noFollow": false,
+            "tagTitle": "Cartas Magic",
+            "text": "Cartas Magic"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/cartas-pokemon",
+            "noFollow": false,
+            "tagTitle": "Cartas Pokémon",
+            "text": "Cartas Pokémon"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-9",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/dobble",
+            "noFollow": false,
+            "tagTitle": "Dobble",
+            "text": "Dobble"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-cartas-10",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-cartas/uno",
+            "noFollow": false,
+            "tagTitle": "Uno",
+            "text": "Uno"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Jogos de Cartas"
+  },
+  "drawer-close-button#jogos-de-cartas": {
+    "props": {
+      "text": "Jogos de Cartas"
+    }
+  }
+}

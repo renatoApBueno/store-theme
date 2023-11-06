@@ -1,0 +1,164 @@
+{
+  "drawer#submenu-doces": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-doces"
+    ],
+    "blocks": [
+      "drawer-trigger#doces"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Doces"
+  },
+  "drawer-trigger#doces": {
+    "children": [
+      "rich-text#submenu-doces"
+    ],
+    "title": "Drawer Trigger - Doces"
+  },
+  "rich-text#submenu-doces": {
+    "props": {
+      "text": "Doces"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-doces": {
+    "children": [
+      "drawer-close-button#doces"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-1",
+        //   "type": "custom",
+        //   "highlight": true,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces",
+        //     "noFollow": false,
+        //     "tagTitle": "Tudo em Doces",
+        //     "text": "Tudo em Doces"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-2",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces/balas",
+        //     "noFollow": false,
+        //     "tagTitle": "Balas",
+        //     "text": "Balas"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-3",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces/biscoito-doce",
+        //     "noFollow": false,
+        //     "tagTitle": "Biscoito Doce",
+        //     "text": "Biscoito Doce"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-4",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces/bolacha-doce",
+        //     "noFollow": false,
+        //     "tagTitle": "Bolacha Doce",
+        //     "text": "Bolacha Doce"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-5",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces/bombons",
+        //     "noFollow": false,
+        //     "tagTitle": "Bombons",
+        //     "text": "Bombons"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-6",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces/chicletes",
+        //     "noFollow": false,
+        //     "tagTitle": "Chicletes",
+        //     "text": "Chicletes"
+        //   }
+        // },
+        {
+          "id": "menu-item-category-guloseimas-doces-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/doces/chocolates",
+            "noFollow": false,
+            "tagTitle": "Chocolates",
+            "text": "Chocolates"
+          }
+        },
+        {
+          "id": "menu-item-category-guloseimas-doces-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/guloseimas/doces/ovos-de-pascoa",
+            "noFollow": false,
+            "tagTitle": "Ovos de Páscoa",
+            "text": "Ovos de Páscoa"
+          }
+        }
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-9",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces/pipoca-doce",
+        //     "noFollow": false,
+        //     "tagTitle": "Pipoca Doce",
+        //     "text": "Pipoca Doce"
+        //   }
+        // },
+        // {
+        //   "id": "menu-item-category-guloseimas-doces-10",
+        //   "type": "custom",
+        //   "highlight": false,
+        //   "itemProps": {
+        //     "type": "internal",
+        //     "href": "/guloseimas/doces/pirulitos",
+        //     "noFollow": false,
+        //     "tagTitle": "Pirulitos",
+        //     "text": "Pirulitos"
+        //   }
+        // }
+      ]
+    },
+    "title": "Menu - Doces"
+  },
+  "drawer-close-button#doces": {
+    "props": {
+      "text": "Doces"
+    }
+  }
+}

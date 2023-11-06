@@ -1,0 +1,89 @@
+{
+  "drawer#submenu-cartao-presente": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-cartao-presente"
+    ],
+    "blocks": [
+      "drawer-trigger#cartao-presente"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Cartão Presente"
+  },
+  "drawer-trigger#cartao-presente": {
+    "children": [
+      "flex-layout.row#menu-cartao-presente"
+    ],
+    "title": "Drawer Trigger - Cartão Presente"
+  },
+  "flex-layout.row#menu-cartao-presente": {
+    "children": [
+      "rich-text#submenu-cartao-presente"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#submenu-cartao-presente": {
+    "props": {
+      "text": "Cartão Presente"
+    },
+    "title": "Titulo - Cartão Presente"
+  },
+  "vtex.menu@2.x:menu#drawer-cartao-presente": {
+    "children": [
+      "drawer-close-button#cartao-presente"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-cartao-presente-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cartao-presente",
+            "noFollow": false,
+            "tagTitle": "Tudo em Cartão Presente",
+            "text": "Tudo em Cartão Presente"
+          }
+        },
+        {
+          "id": "menu-item-cartao-presente-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cartao-presente/games-entretenimento",
+            "noFollow": false,
+            "tagTitle": "Games e Entretenimento",
+            "text": "Games e Entretenimento"
+          }
+        },
+        {
+          "id": "menu-item-cartao-presente-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cartao-presente/mobilidade-e-servicos",
+            "noFollow": false,
+            "tagTitle": "Mobilidade e Serviços",
+            "text": "Mobilidade e Serviços"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Cartão Presente"
+  },
+  "drawer-close-button#cartao-presente": {
+    "props": {
+      "text": "Cartão Presente"
+    }
+  }
+}

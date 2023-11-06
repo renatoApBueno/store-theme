@@ -1,0 +1,140 @@
+{
+  "drawer#submenu-saude-seguranca": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-saude-seguranca"
+    ],
+    "blocks": [
+      "drawer-trigger#saude-seguranca"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Saúde e Segurança"
+  },
+  "drawer-trigger#saude-seguranca": {
+    "children": [
+      "rich-text#submenu-saude-seguranca"
+    ],
+    "title": "Drawer Trigger - Saúde e Segurança"
+  },
+  "rich-text#submenu-saude-seguranca": {
+    "props": {
+      "text": "Saúde e Segurança"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-saude-seguranca": {
+    "children": [
+      "drawer-close-button#saude-seguranca"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-saude-e-seguranca",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca",
+            "noFollow": false,
+            "tagTitle": "Tudo em Saúde e Segurança",
+            "text": "Tudo em Saúde e Segurança"
+          }
+        },
+        {
+          "id": "menu-item-category-saude-e-seguranca-saude-acessorios-para-saude",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca/saude/acessorios-para-saude",
+            "noFollow": false,
+            "tagTitle": "Acessórios para Saúde",
+            "text": "Acessórios para Saúde"
+          }
+        },
+        {
+          "id": "menu-item-category-saude-e-seguranca-seguranca-acessorios-para-segurança",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca/seguranca/acessorios-para-segurança",
+            "noFollow": false,
+            "tagTitle": "Acessórios para Segurança",
+            "text": "Acessórios para Segurança"
+          }
+        },
+        {
+          "id": "menu-item-category-saude-e-seguranca-saude-aspirador-nasal",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca/saude/aspirador-nasal",
+            "noFollow": false,
+            "tagTitle": "Aspirador Nasal",
+            "text": "Aspirador Nasal"
+          }
+        },
+        {
+          "id": "menu-item-category-saude-e-seguranca-seguranca-baba-eletronica",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca/seguranca/baba-eletronica",
+            "noFollow": false,
+            "tagTitle": "Babá Eletrônica",
+            "text": "Babá Eletrônica"
+          }
+        },
+        {
+          "id": "menu-item-category-saude-e-seguranca-saude-climatizacao-do-ambiente",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca/saude/climatizacao-do-ambiente",
+            "noFollow": false,
+            "tagTitle": "Climatização do  Ambiente",
+            "text": "Climatização do  Ambiente"
+          }
+        },
+        {
+          "id": "menu-item-category-saude-e-seguranca-saude-inalador-e-nebulizador",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca/saude/inalador-e-nebulizador",
+            "noFollow": false,
+            "tagTitle": "Inalador e Nebulizador",
+            "text": "Inalador e Nebulizador"
+          }
+        },
+        {
+          "id": "menu-item-category-saude-e-seguranca-saude-termometro",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/saude-e-seguranca/saude/termometro",
+            "noFollow": false,
+            "tagTitle": "Termômetro",
+            "text": "Termômetro"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Saúde e Segurança"
+  },
+  "drawer-close-button#saude-seguranca": {
+    "props": {
+      "text": "Saúde e Segurança"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "drawer#submenu-fantasias": {
+    "children": [
+      "flex-layout.row#fantasias"
+    ],
+    "blocks": [
+      "drawer-trigger#fantasias"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - fantasias"
+  },
+  "drawer-trigger#fantasias": {
+    "children": [
+      "flex-layout.row#menu-fantasias"
+    ],
+    "title": "Drawer Trigger - fantasias"
+  },
+  "flex-layout.row#menu-fantasias": {
+    "children": [
+      "rich-text#submenu-fantasias"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Icone e Texto"
+  },
+  "rich-text#submenu-fantasias": {
+    "props": {
+      "text": "Fantasias"
+    },
+    "title": "Titulo - fantasias"
+  },
+  "drawer-close-button#fantasias": {
+    "props": {
+      "text": "Fantasias"
+    }
+  },
+  "flex-layout.row#fantasias": {
+    "children": [
+      "drawer-close-button#fantasias",
+      "vtex.menu@2.x:menu#menu-fantasias",
+      "drawer#submenu-fantasias-acessorios",
+      "drawer#submenu-fantasias-adultos",
+      "drawer#submenu-fantasias-infantil"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "row-submenu-mobile"
+      ]
+    },
+    "title": "Submenus"
+  },
+  "vtex.menu@2.x:menu#menu-fantasias": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-fantasias",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fantasias",
+            "noFollow": false,
+            "tagTitle": "Tudo em Fantasias",
+            "text": "Tudo em Fantasias"
+          }
+        }
+      ]
+    },
+    "title": "Submenu - fantasias"
+  }
+}

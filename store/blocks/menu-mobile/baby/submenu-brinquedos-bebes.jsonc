@@ -1,0 +1,152 @@
+{
+  "drawer#submenu-brinquedos-bebes": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-brinquedos-bebes"
+    ],
+    "blocks": [
+      "drawer-trigger#brinquedos-bebes"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Brinquedos para Bebês"
+  },
+  "drawer-trigger#brinquedos-bebes": {
+    "children": [
+      "rich-text#submenu-brinquedos-bebes"
+    ],
+    "title": "Drawer Trigger - Brinquedos para Bebês"
+  },
+  "rich-text#submenu-brinquedos-bebes": {
+    "props": {
+      "text": "Brinquedos para Bebês"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-brinquedos-bebes": {
+    "children": [
+      "drawer-close-button#brinquedos-bebes"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes",
+            "noFollow": false,
+            "tagTitle": "Tudo em Brinquedos para Bebês",
+            "text": "Tudo em Brinquedos para Bebês"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-andador",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/andador",
+            "noFollow": false,
+            "tagTitle": "Andador",
+            "text": "Andador"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-brinquedos-primeira-infancia",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/brinquedos-primeira-infancia",
+            "noFollow": false,
+            "tagTitle": "Brinquedos Primeira  Infância",
+            "text": "Brinquedos Primeira  Infância"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-brinquedos-de-praia",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/brinquedos-de-praia",
+            "noFollow": false,
+            "tagTitle": "Brinquedos de Praia",
+            "text": "Brinquedos de Praia"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-brinquedos-para-banho",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/brinquedos-para-banho",
+            "noFollow": false,
+            "tagTitle": "Brinquedos para Banho",
+            "text": "Brinquedos para Banho"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-cadeiras-de-descanso",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/cadeiras-de-descanso",
+            "noFollow": false,
+            "tagTitle": "Cadeira de Descanso",
+            "text": "Cadeira de Descanso"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-chocalho",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/chocalho",
+            "noFollow": false,
+            "tagTitle": "Chocalho",
+            "text": "Chocalho"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-jumper-e-centro-de-atividades",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/jumper-e-centro-de-atividades",
+            "noFollow": false,
+            "tagTitle": "Jumper e Centro de Atividades",
+            "text": "Jumper e Centro de Atividades"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-brinquedos-para-bebes-tapete-de-atividades",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/tapete-de-atividades",
+            "noFollow": false,
+            "tagTitle": "Tapetes de Atividades",
+            "text": "Tapetes de Atividades"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Brinquedos para Bebês"
+  },
+  "drawer-close-button#brinquedos-bebes": {
+    "props": {
+      "text": "Brinquedos para Bebês"
+    }
+  }
+}

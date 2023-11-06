@@ -1,0 +1,176 @@
+{
+  "drawer#submenu-jogos-de-tabuleiro": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-jogos-de-tabuleiro"
+    ],
+    "blocks": [
+      "drawer-trigger#jogos-de-tabuleiro"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Jogos de Tabuleiro"
+  },
+  "drawer-trigger#jogos-de-tabuleiro": {
+    "children": [
+      "rich-text#submenu-jogos-de-tabuleiro"
+    ],
+    "title": "Drawer Trigger - Jogos de Tabuleiro"
+  },
+  "rich-text#submenu-jogos-de-tabuleiro": {
+    "props": {
+      "text": "Jogos de Tabuleiro"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-jogos-de-tabuleiro": {
+    "children": [
+      "drawer-close-button#jogos-de-tabuleiro"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro",
+            "noFollow": false,
+            "tagTitle": "Tudo em Jogos de Tabuleiro",
+            "text": "Tudo em Jogos de Tabuleiro"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/acessorios-de-tabuleiro",
+            "noFollow": false,
+            "tagTitle": "Acessórios de Tabuleiro",
+            "text": "Acessórios de Tabuleiro"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/banco-imobiliario",
+            "noFollow": false,
+            "tagTitle": "Banco Imobiliário",
+            "text": "Banco Imobiliário"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/jogo-da-vida",
+            "noFollow": false,
+            "tagTitle": "Jogo da Vida",
+            "text": "Jogo da Vida"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/jogos-de-estrategia",
+            "noFollow": false,
+            "tagTitle": "Jogos de Estratégia",
+            "text": "Jogos de Estratégia"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/jogos-de-guerra",
+            "noFollow": false,
+            "tagTitle": "Jogos de Guerra",
+            "text": "Jogos de Guerra"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/jogos-de-percurso",
+            "noFollow": false,
+            "tagTitle": "Jogos de Percurso",
+            "text": "Jogos de Percurso"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/jogos-de-perguntas-e-respostas",
+            "noFollow": false,
+            "tagTitle": "Jogos de Perguntas e Respostas",
+            "text": "Jogos de Perguntas e Respostas"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-9",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/jogos-de-rpg",
+            "noFollow": false,
+            "tagTitle": "Jogos de RPG",
+            "text": "Jogos de RPG"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-10",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/jogos-de-tabuleiro-moderno",
+            "noFollow": false,
+            "tagTitle": "Jogos de Tabuleiro Moderno",
+            "text": "Jogos de Tabuleiro Moderno"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-de-tabuleiro-11",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-de-tabuleiro/war",
+            "noFollow": false,
+            "tagTitle": "War",
+            "text": "War"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Jogos de Tabuleiro"
+  },
+  "drawer-close-button#jogos-de-tabuleiro": {
+    "props": {
+      "text": "Jogos de Tabuleiro"
+    }
+  }
+}

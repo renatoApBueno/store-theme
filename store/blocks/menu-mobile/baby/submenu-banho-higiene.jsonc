@@ -1,0 +1,116 @@
+{
+  "drawer#submenu-banho-higiene": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-banho-higiene"
+    ],
+    "blocks": [
+      "drawer-trigger#banho-higiene"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Banho e Higiene"
+  },
+  "drawer-trigger#banho-higiene": {
+    "children": [
+      "rich-text#submenu-banho-higiene"
+    ],
+    "title": "Drawer Trigger - Banho e Higiene"
+  },
+  "rich-text#submenu-banho-higiene": {
+    "props": {
+      "text": "Banho e Higiene"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-banho-higiene": {
+    "children": [
+      "drawer-close-button#banho-higiene"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "id": "menu-item-category-banho-e-higiene",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banho-e-higiene",
+            "noFollow": false,
+            "tagTitle": "Tudo em Banho e Higiene",
+            "text": "Tudo em Banho e Higiene"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-banho-e-higiene-acessorios-para-o-banho",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banho-e-higiene/acessorios-para-o-banho",
+            "noFollow": false,
+            "tagTitle": "Acessórios para o Banho",
+            "text": "Acessórios para o Banho"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-banho-e-higiene-cosmeticos-e-cuidados",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banho-e-higiene/cosmeticos-e-cuidados",
+            "noFollow": false,
+            "tagTitle": "Cosméticos e Cuidados",
+            "text": "Cosméticos e Cuidados"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-banho-e-higiene-fraldas",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banho-e-higiene/fraldas",
+            "noFollow": false,
+            "tagTitle": "Fraldas",
+            "text": "Fraldas"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-banho-e-higiene-higiene-oral",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banho-e-higiene/higiene-oral",
+            "noFollow": false,
+            "tagTitle": "Higiene Oral",
+            "text": "Higiene Oral"
+          }
+        },
+        {
+          "type": "custom",
+          "id": "menu-item-category-banho-e-higiene-troninho",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/banho-e-higiene/troninho",
+            "noFollow": false,
+            "tagTitle": "Troninho",
+            "text": "Troninho"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Banho e Higiene"
+  },
+  "drawer-close-button#banho-higiene": {
+    "props": {
+      "text": "Banho e Higiene"
+    }
+  }
+}

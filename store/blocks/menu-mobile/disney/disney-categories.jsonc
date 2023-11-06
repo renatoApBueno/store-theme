@@ -1,0 +1,54 @@
+{
+  "drawer#submenu-disney": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-disney"
+    ],
+    "blocks": [
+      "drawer-trigger#disney"
+    ],
+    "props": {
+      "isFullWidth": false
+    },
+    "title": "Drawer - Disney"
+  },
+  "drawer-trigger#disney": {
+    "children": [
+      "rich-text#submenu-disney"
+    ],
+    "title": "Drawer Trigger - Disney"
+  },
+  "rich-text#submenu-disney": {
+    "props": {
+      "text": "Disney"
+    },
+    "title": "Titulo - Disney"
+  },
+  "vtex.menu@2.x:menu#drawer-disney": {
+    "children": [
+      "drawer-close-button#disney"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-disney",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/disney",
+            "noFollow": false,
+            "tagTitle": "Tudo em Disney",
+            "text": "Tudo em Disney"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Disney"
+  },
+  "drawer-close-button#disney": {
+    "props": {
+      "text": "Disney"
+    }
+  }
+}

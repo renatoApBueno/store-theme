@@ -1,0 +1,236 @@
+{
+  "drawer#submenu-jogos-classicos": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-jogos-classicos"
+    ],
+    "blocks": [
+      "drawer-trigger#jogos-classicos"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Jogos Clássicos"
+  },
+  "drawer-trigger#jogos-classicos": {
+    "children": [
+      "rich-text#submenu-jogos-classicos"
+    ],
+    "title": "Drawer Trigger - Jogos Clássicos"
+  },
+  "rich-text#submenu-jogos-classicos": {
+    "props": {
+      "text": "Jogos Clássicos"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-jogos-classicos": {
+    "children": [
+      "drawer-close-button#jogos-classicos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-jogos-classicos-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos",
+            "noFollow": false,
+            "tagTitle": "Tudo em Jogos Clássicos",
+            "text": "Tudo em Jogos Clássicos"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/batalha-naval",
+            "noFollow": false,
+            "tagTitle": "Batalha Naval",
+            "text": "Batalha Naval"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/bingo",
+            "noFollow": false,
+            "tagTitle": "Bingo",
+            "text": "Bingo"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/cubo-magico",
+            "noFollow": false,
+            "tagTitle": "Cubo Mágico",
+            "text": "Cubo Mágico"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/dama",
+            "noFollow": false,
+            "tagTitle": "Dama",
+            "text": "Dama"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/domino",
+            "noFollow": false,
+            "tagTitle": "Dominó",
+            "text": "Dominó"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-7",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/futebol-de-botao",
+            "noFollow": false,
+            "tagTitle": "Futebol de Botão",
+            "text": "Futebol de Botão"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-8",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/jogos-de-mimica",
+            "noFollow": false,
+            "tagTitle": "Jogos de Mímica",
+            "text": "Jogos de Mímica"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-9",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/jogos-de-mesa",
+            "noFollow": false,
+            "tagTitle": "Jogos de Mesa",
+            "text": "Jogos de Mesa"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-10",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/kit-de-jogos",
+            "noFollow": false,
+            "tagTitle": "Kit de Jogos",
+            "text": "Kit de Jogos"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-11",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/kit-de-magica",
+            "noFollow": false,
+            "tagTitle": "Kit de Mágica",
+            "text": "Kit de Mágica"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-12",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/palavras-cruzadas",
+            "noFollow": false,
+            "tagTitle": "Palavras Cruzadas",
+            "text": "Palavras Cruzadas"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-13",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/resta-um",
+            "noFollow": false,
+            "tagTitle": "Resta Um",
+            "text": "Resta Um"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-14",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/stop",
+            "noFollow": false,
+            "tagTitle": "Stop",
+            "text": "Stop"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-15",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/sudoku",
+            "noFollow": false,
+            "tagTitle": "Sudoku",
+            "text": "Sudoku"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-classicos-16",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-classicos/xadrez",
+            "noFollow": false,
+            "tagTitle": "Xadrez",
+            "text": "Xadrez"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Jogos Clássicos"
+  },
+  "drawer-close-button#jogos-classicos": {
+    "props": {
+      "text": "Jogos Clássicos"
+    }
+  }
+}

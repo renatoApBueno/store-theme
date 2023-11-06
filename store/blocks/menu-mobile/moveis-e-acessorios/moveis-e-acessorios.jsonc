@@ -1,0 +1,102 @@
+{
+  "drawer#submenu-moveis-e-acessorios": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-moveis-e-acessorios"
+    ],
+    "blocks": [
+      "drawer-trigger#moveis-e-acessorios"
+    ],
+    "props": {
+      "isFullWidth": false
+    },
+    "title": "Drawer - Móveis e Acessórios"
+  },
+  "drawer-trigger#moveis-e-acessorios": {
+    "children": [
+      "rich-text#submenu-moveis-e-acessorios"
+    ],
+    "title": "Drawer Trigger - Móveis e Acessórios"
+  },
+  "rich-text#submenu-moveis-e-acessorios": {
+    "props": {
+      "text": "Móveis e Acessórios"
+    },
+    "title": "Titulo - Móveis e Acessórios"
+  },
+  "drawer-close-button#moveis-e-acessorios": {
+    "props": {
+      "text": "Móveis e Acessórios"
+    }
+  },
+  "vtex.menu@2.x:menu#drawer-moveis-e-acessorios": {
+    "children": [
+      "drawer-close-button#moveis-e-acessorios"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-moveis-e-acessorios-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moveis-e-acessorios",
+            "noFollow": false,
+            "tagTitle": "Tudo em Móveis e Acessórios",
+            "text": "Tudo em Móveis e Acessórios"
+          }
+        },
+        {
+          "id": "menu-item-category-moveis-e-acessorios-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moveis-e-acessorios/camas-e-bercos",
+            "noFollow": false,
+            "tagTitle": "Camas e Berços",
+            "text": "Camas e Berços"
+          }
+        },
+        {
+          "id": "menu-item-category-moveis-e-acessorios-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moveis-e-acessorios/colchoes-e-travesseiros",
+            "noFollow": false,
+            "tagTitle": "Colchões e Travesseiros",
+            "text": "Colchões e Travesseiros"
+          }
+        },
+        {
+          "id": "menu-item-category-moveis-e-acessorios-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moveis-e-acessorios/decoracao",
+            "noFollow": false,
+            "tagTitle": "Decoração",
+            "text": "Decoração"
+          }
+        },
+        {
+          "id": "menu-item-category-moveis-e-acessorios-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moveis-e-acessorios/quarto-completo",
+            "noFollow": false,
+            "tagTitle": "Quarto Completo",
+            "text": "Quarto Completo"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Móveis e Acessórios"
+  }
+}

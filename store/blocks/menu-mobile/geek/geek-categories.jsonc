@@ -1,0 +1,81 @@
+{
+  "drawer#submenu-geek": {
+    "children": [
+      "flex-layout.row#geeks-e-colocionaveis"
+    ],
+    "blocks": [
+      "drawer-trigger#geek"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - geek"
+  },
+  "drawer-trigger#geek": {
+    "children": [
+      "flex-layout.row#menu-geek"
+    ],
+    "title": "Drawer Trigger - geek"
+  },
+  "flex-layout.row#menu-geek": {
+    "children": [
+      "rich-text#submenu-geek"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Icone e Texto"
+  },
+  "rich-text#submenu-geek": {
+    "props": {
+      "text": "Geek e Colecionáveis"
+    },
+    "title": "Titulo - geek"
+  },
+  "drawer-close-button#geek": {
+    "props": {
+      "text": "Geek e Colecionáveis"
+    }
+  },
+  "flex-layout.row#geeks-e-colocionaveis": {
+    "children": [
+      "drawer-close-button#geek",
+      "vtex.menu@2.x:menu#menu-geek",
+      "drawer#submenu-figuras-de-acao",
+      "drawer#submenu-funko-pop",
+      "drawer#submenu-montagens-modelismos"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "row-submenu-mobile"
+      ]
+    },
+    "title": "Submenus"
+  },
+  "vtex.menu@2.x:menu#menu-geek": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-geeks-e-colecionaveis",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/geeks-e-colecionaveis",
+            "noFollow": false,
+            "tagTitle": "Tudo em Geek e Colecionáveis",
+            "text": "Tudo em Geek e Colecionáveis"
+          }
+        }
+      ]
+    },
+    "title": "Submenu - geek"
+  }
+}

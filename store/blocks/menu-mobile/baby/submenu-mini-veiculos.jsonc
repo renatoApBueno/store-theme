@@ -1,0 +1,104 @@
+{
+  "drawer#submenu-mini-veiculos": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-mini-veiculos"
+    ],
+    "blocks": [
+      "drawer-trigger#mini-veiculos"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Mini Veículos"
+  },
+  "drawer-trigger#mini-veiculos": {
+    "children": [
+      "rich-text#submenu-mini-veiculos"
+    ],
+    "title": "Drawer Trigger - Mini Veículos"
+  },
+  "rich-text#submenu-mini-veiculos": {
+    "props": {
+      "text": "Mini Veículos"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-mini-veiculos": {
+    "children": [
+      "drawer-close-button#mini-veiculos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-brinquedos-para-bebes-mini-veiculo",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/mini-veiculo",
+            "noFollow": false,
+            "tagTitle": "Tudo em Mini Veículos",
+            "text": "Tudo em Mini Veículos"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-para-bebes-mini-veiculo-bicicleta-de-equilibrio",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/mini-veiculo/bicicleta-de-equilibrio",
+            "noFollow": false,
+            "tagTitle": "Bicicleta de Equilíbrio",
+            "text": "Bicicleta de Equilíbrio"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-para-bebes-mini-veiculo-mini-veiculo-de-passeio",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/mini-veiculo/mini-veiculo-de-passeio",
+            "noFollow": false,
+            "tagTitle": "Mini Veículo de Passeio",
+            "text": "Mini Veículo de Passeio"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-para-bebes-mini-veiculo-mini-veiculo-eletrico",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/mini-veiculo/mini-veiculo-eletrico",
+            "noFollow": false,
+            "tagTitle": "Mini Veículo Elétrico",
+            "text": "Mini Veículo Elétrico"
+          }
+        },
+        {
+          "id": "menu-item-category-brinquedos-para-bebes-mini-veiculo-triciclo",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/brinquedos-para-bebes/mini-veiculo/triciclo",
+            "noFollow": false,
+            "tagTitle": "Triciclo",
+            "text": "Triciclo"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Mini Veículos"
+  },
+  "drawer-close-button#mini-veiculos": {
+    "props": {
+      "text": "Mini Veículos"
+    }
+  }
+}

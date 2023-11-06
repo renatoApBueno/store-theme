@@ -1,0 +1,84 @@
+{
+  "drawer#submenu-jogos": {
+    "children": [
+      "flex-layout.row#jogos-de-acao-mobile"
+    ],
+    "blocks": [
+      "drawer-trigger#jogos"
+    ],
+    "props": {
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - jogos"
+  },
+  "drawer-trigger#jogos": {
+    "children": [
+      "flex-layout.row#menu-jogos"
+    ],
+    "title": "Drawer Trigger - jogos"
+  },
+  "flex-layout.row#menu-jogos": {
+    "children": [
+      "rich-text#submenu-jogos"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    },
+    "title": "Icone e Texto"
+  },
+  "rich-text#submenu-jogos": {
+    "props": {
+      "text": "Jogos"
+    },
+    "title": "Titulo - jogos"
+  },
+  "drawer-close-button#jogos": {
+    "props": {
+      "text": "Jogos"
+    }
+  },
+  "flex-layout.row#jogos-de-acao-mobile": {
+    "children": [
+      "drawer-close-button#jogos",
+      "vtex.menu@2.x:menu#menu-jogos",
+      "drawer#submenu-jogos-classicos",
+      "drawer#submenu-jogos-de-acao",
+      "drawer#submenu-jogos-de-cartas",
+      "drawer#submenu-jogos-de-tabuleiro",
+      "drawer#submenu-jogos-educativos",
+      "drawer#submenu-jogos-eletronicos"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": [
+        "row-submenu-mobile"
+      ]
+    },
+    "title": "Submenus"
+  },
+  "vtex.menu@2.x:menu#menu-jogos": {
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-jogos",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos",
+            "noFollow": false,
+            "tagTitle": "Tudo em Jogos",
+            "text": "Tudo em Jogos"
+          }
+        }
+      ]
+    },
+    "title": "Submenu - jogos"
+  }
+}

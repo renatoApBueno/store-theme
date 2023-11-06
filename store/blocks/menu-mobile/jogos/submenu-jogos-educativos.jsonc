@@ -1,0 +1,116 @@
+{
+  "drawer#submenu-jogos-educativos": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-jogos-educativos"
+    ],
+    "blocks": [
+      "drawer-trigger#jogos-educativos"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Jogos Educativos"
+  },
+  "drawer-trigger#jogos-educativos": {
+    "children": [
+      "rich-text#submenu-jogos-educativos"
+    ],
+    "title": "Drawer Trigger - Jogos Educativos"
+  },
+  "rich-text#submenu-jogos-educativos": {
+    "props": {
+      "text": "Jogos Educativos"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-jogos-educativos": {
+    "children": [
+      "drawer-close-button#jogos-educativos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-jogos-educativos-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-educativos",
+            "noFollow": false,
+            "tagTitle": "Tudo em Jogos Educativos",
+            "text": "Tudo em Jogos Educativos"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-educativos-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-educativos/jogos-de-anatomia",
+            "noFollow": false,
+            "tagTitle": "Jogos de Anatomia",
+            "text": "Jogos de Anatomia"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-educativos-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-educativos/jogos-de-matematica",
+            "noFollow": false,
+            "tagTitle": "Jogos de Matemática",
+            "text": "Jogos de Matemática"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-educativos-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-educativos/jogos-de-memoria",
+            "noFollow": false,
+            "tagTitle": "Jogos de Memória",
+            "text": "Jogos de Memória"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-educativos-5",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-educativos/jogos-educativos",
+            "noFollow": false,
+            "tagTitle": "Jogos Educativos",
+            "text": "Jogos Educativos"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-educativos-6",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-educativos/jogos-para-alfabetizacao",
+            "noFollow": false,
+            "tagTitle": "Jogos para Alfabetização",
+            "text": "Jogos para Alfabetização"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Jogos Educativos"
+  },
+  "drawer-close-button#jogos-educativos": {
+    "props": {
+      "text": "Jogos Educativos"
+    }
+  }
+}

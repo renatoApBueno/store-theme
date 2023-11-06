@@ -1,0 +1,92 @@
+{
+  "drawer#submenu-jogos-eletronicos": {
+    "children": [
+      "vtex.menu@2.x:menu#drawer-jogos-eletronicos"
+    ],
+    "blocks": [
+      "drawer-trigger#jogos-eletronicos"
+    ],
+    "props": {
+      "blockClass": [],
+      "isFullWidth": false,
+      "renderingStrategy": "eager"
+    },
+    "title": "Drawer - Jogos Eletrônicos"
+  },
+  "drawer-trigger#jogos-eletronicos": {
+    "children": [
+      "rich-text#submenu-jogos-eletronicos"
+    ],
+    "title": "Drawer Trigger - Jogos Eletrônicos"
+  },
+  "rich-text#submenu-jogos-eletronicos": {
+    "props": {
+      "text": "Jogos Eletrônicos"
+    },
+    "title": "Titulo Submenu"
+  },
+  "vtex.menu@2.x:menu#drawer-jogos-eletronicos": {
+    "children": [
+      "drawer-close-button#jogos-eletronicos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-category-jogos-eletronicos-1",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-eletronicos",
+            "noFollow": false,
+            "tagTitle": "Tudo em Jogos Eletrônicos",
+            "text": "Tudo em Jogos Eletrônicos"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-eletronicos-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-eletronicos/camera-instantanea",
+            "noFollow": false,
+            "tagTitle": "Câmera Instantânea",
+            "text": "Câmera Instantânea"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-eletronicos-3",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-eletronicos/laptop-infantil",
+            "noFollow": false,
+            "tagTitle": "Laptop Infantil",
+            "text": "Laptop Infantil"
+          }
+        },
+        {
+          "id": "menu-item-category-jogos-eletronicos-4",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/jogos/jogos-eletronicos/mini-game",
+            "noFollow": false,
+            "tagTitle": "Mini Game",
+            "text": "Mini Game"
+          }
+        }
+      ]
+    },
+    "title": "Menu - Jogos Eletrônicos"
+  },
+  "drawer-close-button#jogos-eletronicos": {
+    "props": {
+      "text": "Jogos Eletrônicos"
+    }
+  }
+}
